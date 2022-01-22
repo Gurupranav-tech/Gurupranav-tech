@@ -5,7 +5,7 @@ type AboutMe = {
   name: string;
   age: number;
   pronouns: "he/him" | "she/her";
-  description: string;
+  description?: string;
 };
 
 const aboutMe: AboutMe = {
